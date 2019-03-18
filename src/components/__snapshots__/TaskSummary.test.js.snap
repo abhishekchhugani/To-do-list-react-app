@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TaskSummary
+    todos={
+        Array [
+            Object {
+              "complete": true,
+              "content": "Hello",
+              "id": 1,
+            },
+            Object {
+              "complete": false,
+              "content": "World",
+              "id": 2,
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="row inner-height"
+>
+        <div
+                className="col s12 valign-wrapper horizontal-center total"
+                id="totalCount"
+        >
+                Total: 
+                2
+        </div>
+        <div
+                className="col s12 valign-wrapper horizontal-center"
+                id="completedCount"
+        >
+                Completed : 
+                1
+        </div>
+</div>,
+      "className": "task-summary mb20",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="col s12 valign-wrapper horizontal-center total"
+            id="totalCount"
+>
+            Total: 
+            2
+</div>,
+          <div
+            className="col s12 valign-wrapper horizontal-center"
+            id="completedCount"
+>
+            Completed : 
+            1
+</div>,
+        ],
+        "className": "row inner-height",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Total: ",
+              2,
+            ],
+            "className": "col s12 valign-wrapper horizontal-center total",
+            "id": "totalCount",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Total: ",
+            2,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Completed : ",
+              1,
+            ],
+            "className": "col s12 valign-wrapper horizontal-center",
+            "id": "completedCount",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Completed : ",
+            1,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="row inner-height"
+>
+          <div
+                    className="col s12 valign-wrapper horizontal-center total"
+                    id="totalCount"
+          >
+                    Total: 
+                    2
+          </div>
+          <div
+                    className="col s12 valign-wrapper horizontal-center"
+                    id="completedCount"
+          >
+                    Completed : 
+                    1
+          </div>
+</div>,
+        "className": "task-summary mb20",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="col s12 valign-wrapper horizontal-center total"
+              id="totalCount"
+>
+              Total: 
+              2
+</div>,
+            <div
+              className="col s12 valign-wrapper horizontal-center"
+              id="completedCount"
+>
+              Completed : 
+              1
+</div>,
+          ],
+          "className": "row inner-height",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Total: ",
+                2,
+              ],
+              "className": "col s12 valign-wrapper horizontal-center total",
+              "id": "totalCount",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Total: ",
+              2,
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Completed : ",
+                1,
+              ],
+              "className": "col s12 valign-wrapper horizontal-center",
+              "id": "completedCount",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Completed : ",
+              1,
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
